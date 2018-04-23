@@ -5,7 +5,7 @@ const url = require('url');
 let server = http.createServer((req, res)=>{
 	let {pathname, query} = url.parse(req.url, true);
 	if(pathname == '/' || pathname == '/index'){
-		 res.end('hello 9002 blog');
+		 res.end('hello 9002 erp');
 	}else{
 		 res.end('404 not found');
 	}
